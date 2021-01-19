@@ -14,16 +14,16 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // Replace with your network credentials
-const char* ssid = "Livebox-C2B8";
-const char* password = "VkUQZYEtV6HUD6xFES";
+const char* ssid = "";
+const char* password = "";
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-#define CHAT_ID "1433941197"
+#define CHAT_ID ""
 
 // Initialize Telegram BOT
-#define BOTtoken "1573046313:AAHFxwIZeB7FDQ8977iR7tC-xlSNGLW31ww"  // your Bot Token (Get from Botfather)
+#define BOTtoken ""  // your Bot Token (Get from Botfather)
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
